@@ -1,7 +1,7 @@
 export BERT_Chinese_DIR=/data2/tingting66/project/deep_ner/deep-baseline/coding/data/chinese_roberta_wwm_ext_L-12_H-768_A-12
 export Demo_DIR=data
 
-python run_classifier.py \
+python run_classifier_demo.py \
   --task_name=demo \
   --do_train=true \
   --do_eval=true \
