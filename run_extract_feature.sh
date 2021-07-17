@@ -2,8 +2,8 @@ export BERT_Chinese_DIR=/data2/tingting66/project/deep_ner/deep-baseline/coding/
 export Demo_DIR=data
 
 python extract_features.py \
-  --input_file="tmp.txt" \
-  --output_dir="./tmp/output.json" \
+  --input_file=./tmp.txt \
+  --output_dir=$Demo_DIR/output.json \
   --vocab_file=$BERT_Chinese_DIR/vocab.txt \
   --bert_config_file=$BERT_Chinese_DIR/bert_config.json \
   --init_checkpoint=$BERT_Chinese_DIR/bert_model.ckpt \
