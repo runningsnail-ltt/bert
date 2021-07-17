@@ -3,7 +3,7 @@ export Demo_DIR=data
 
 python extract_features.py \
   --input_file=./tmp.txt \
-  --output_dir=$Demo_DIR/output.json \
+  --output_file=$Demo_DIR/output.json \
   --vocab_file=$BERT_Chinese_DIR/vocab.txt \
   --bert_config_file=$BERT_Chinese_DIR/bert_config.json \
   --init_checkpoint=$BERT_Chinese_DIR/bert_model.ckpt \
